@@ -1,13 +1,117 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-    <head>
-        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Fruta & Fruto</title>
-        <link href="./assets/css/normalize.css" rel="stylesheet" />
-        <link href="./assets/css/reset.css" rel="stylesheet" />
-    </head>
-    <body></body>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/style.css">
+    <title>Fruta & Fruto</title>
+</head>
+
+<body>
+    <header class="cabecalho" id="inicio">
+        <img src="./assets/img/logo.jpg" alt="Logo do Fruta e Fruto" class="">
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__lista--item"><a href="#inicio" class="menu__lista--link">início</a></li>
+                <li class="menu__lista--item"><a href="#receitas" class="menu__lista--link">receitas</a></li>
+                <li class="menu__lista--item"><a href="#pessoas" class="menu__lista--link">quem somos</a></li>
+                <li class="menu__lista--item"><a href="#"class="menu__lista--link">comunidade</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h2 class="banner__titulo">Reaproveite melhor os alimentos!</h2>
+        </section>
+
+        <section class="sobre">
+            <h3 class="sobre__titulo">Receitas para economizar e ganhar saúde</h3>
+            <span class="sobre__texto">Nossas receitas ajudam você a aproveitar melhor os alimentos, economizar, ganhar tempo e praticidade</span>
+        </section>
+
+        <section id="receitas" class="receitas">
+            <ul class="receitas__lista">
+                <li class="receitas__lista--item">
+                    <img src="./assets/img/receitas/tigela-de-abacate.jpg" class="receitas__lista--imagem" alt="Tigela de abacate">
+                    <div class="receitas__lista--dados">
+                        <h4 class="receitas__lista--titulo">Tigela de abacate</h4>
+                        <p class="receitas__lista--texto">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                        <a href="#" class="receitas__lista--link">Ver receita</a>
+                    </div>
+                </li>
+                <li class="receitas__lista--item">
+                    <img src="./assets/img/receitas/salada-de-kiwi.jpg" class="receitas__lista--imagem" alt="Salada de kiwi">
+                    <div class="receitas__lista--dados">
+                        <h4 class="receitas__lista--titulo">Salada de kiwi</h4>
+                        <p class="receitas__lista--texto">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                        <a href="#" class="receitas__lista--link">Ver receita</a>
+                    </div>
+                </li>
+                <li class="receitas__lista--item">
+                    <img src="./assets/img/receitas/mix-de-vegetais.jpg" class="receitas__lista--imagem" alt="Mix de vegetais">
+                    <div class="receitas__lista--dados">
+                        <h4 class="receitas__lista--titulo">Mix de vegetais</h4>
+                        <p class="receitas__lista--texto">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                        <a href="#" class="receitas__lista--link">Ver receita</a>
+                    </div>
+                </li>
+                <li class="receitas__lista--item">
+                    <img src="./assets/img/receitas/pimentoes-a-juliana.jpg" class="receitas__lista--imagem" alt="pimentoes a juliana">
+                    <div class="receitas__lista--dados">
+                        <h4 class="receitas__lista--titulo">Pimentões a Juliana</h4>
+                        <p class="receitas__lista--texto">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                        <a href="#" class="receitas__lista--link">Ver receita</a>
+                    </div>
+                </li>
+                <li class="receitas__lista--item">
+                    <img src="./assets/img/receitas/prato-oriental.jpg" class="receitas__lista--imagem" alt="Prato oriental">
+                    <div class="receitas__lista--dados">
+                        <h4 class="receitas__lista--titulo">Prato Oriental</h4>
+                        <p class="receitas__lista--texto">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                        <a href="#" class="receitas__lista--link">Ver receita</a>
+                    <div>
+                </li>
+                <li class="receitas__lista--item">
+                    <img src="./assets/img/receitas/beterrabas-assadas.jpg" class="receitas__lista--imagem" alt="Beterrabas assadas">
+                    <div class="receitas__lista--dados">
+                        <h4 class="receitas__lista--titulo">Beterrabas assadas</h4>
+                        <p class="receitas__lista--texto">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                        <a href="#" class="receitas__lista--link">Ver receita</a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="pessoas" class="pessoas">
+            <h3 class="pessoas__titulo">Quem somos</h3>
+            <span class="pessoas__texto">Conheça a comunidade por trás da iniciativa</span>
+
+            <ul class="pessoas__lista">
+                <li class="pessoas__lista--item">
+                    <img src="./assets/img/pessoas/roberta.jpg" class="pessoas__lista--imagem" alt="Roberta">
+                    <h4 class="pessoas__lista--nome">Roberta</h4>
+                    <span class="pessoas__lista--cargo">conteúdo</span>
+                </li>
+                <li class="pessoas__lista--item">
+                    <img src="./assets/img/pessoas/marcela.jpg" class="pessoas__lista--imagem" alt="Marcela">
+                    <h4 class="pessoas__lista--nome">Marcela</h4>
+                    <span class="pessoas__lista--cargo">chef de cozinha</span>
+                </li>
+                <li class="pessoas__lista--item">
+                    <img src="./assets/img/pessoas/andreia.jpg" class="pessoas__lista--imagem" alt="Andreia">
+                    <h4 class="pessoas__lista--nome">Andreia</h4>
+                    <span class="pessoas__lista--cargo">pequena produtora</span>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p class="rodape__contato">contato</p>
+        <div class="rodape__icon"></div>
+        <div class="rodape__icon"></div>
+    </footer>
+</body>
 </html>

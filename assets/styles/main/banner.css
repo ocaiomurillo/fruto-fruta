@@ -1,0 +1,17 @@
+.banner {
+    align-items: center;
+    background-image: url(../../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+}
+
+.banner__titulo {
+    color: var(--branco);
+    display: flex;
+    font: var(--banner);
+    justify-content: center;
+    text-shadow: 0px 4px 4px #000000;
+}

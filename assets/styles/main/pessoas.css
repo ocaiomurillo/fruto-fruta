@@ -1,0 +1,45 @@
+.pessoas{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pessoas__titulo{
+    font: var(--titulo);
+    color: var(--vinho);
+}
+
+.pessoas__texto{
+    font: var(--texto);
+    color: var(--cinza-medio);
+    margin-bottom: 2em;
+}
+
+.pessoas__lista {
+    display: flex;
+    column-gap: 20em;
+    justify-content: center;
+}
+
+.pessoas__lista--item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pessoas__lista--imagem{
+    border-radius: 50%;
+    width: 200px;
+}
+
+.pessoas__lista--nome{
+    font: var(--nome);
+    color: var(--vinho);
+}
+
+.pessoas__lista--cargo{
+    font: var(--cargo);
+    color: var(--cinza-medio);
+}

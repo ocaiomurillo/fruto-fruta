@@ -1,0 +1,17 @@
+.sobre {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5em 10em;
+}
+
+.sobre__titulo{
+    color: var(--vinho);
+    font: var(--titulo);
+}
+
+.sobre__texto {
+    color: var(--cinza-medio);
+    font: var(--texto);
+}
+

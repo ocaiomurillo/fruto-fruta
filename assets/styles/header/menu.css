@@ -1,0 +1,25 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em 0 1em;
+}
+
+.menu__lista{
+    display: flex;
+    gap: 10px;
+}   
+
+.menu__lista--link{
+    text-decoration: none;
+    font: var(--menu);
+    color: var(--cinza-medio);
+}
+
+.menu__lista--link:active{
+    color: var(--cinza-forte);
+}
+
+.menu__lista--link:hover{
+    text-decoration: underline;
+}

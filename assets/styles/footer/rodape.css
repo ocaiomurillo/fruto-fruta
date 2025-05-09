@@ -1,0 +1,19 @@
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: var(--cinza-medio);
+    padding: 1em;
+    column-gap: .8em;
+}
+
+.rodape__contato{
+    font: var(--contato);
+    color: var(--branco);
+}
+
+.rodape__icon{
+    width: 50px;
+    height: 50px;
+    background-color: var(--vinho);
+}

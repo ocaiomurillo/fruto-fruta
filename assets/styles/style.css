@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Reset e Normalize*/
+@import url('./reset/reset.css');
+@import url('./reset/normalize.css');
+
+/*Estilos*/
+@import url('./header/menu.css');
+@import url('./main/banner.css');
+@import url('./main/sobre.css');
+@import url('./main/receitas.css');
+@import url('./main/pessoas.css');
+@import url('./footer/rodape.css');
+
+/*Padrões*/
+
+:root{
+    /*Tipografia*/
+    --roboto: "Roboto", sans-serif;
+    --pacifico: "Pacifico", sans-serif;
+
+    --menu: 500 14px var(--roboto);
+    --banner: 400 81px var(--pacifico);
+    --titulo: 400 51px var(--pacifico);
+    --texto: 300 28px var(--roboto);
+    --receitas-titulo: 700 23px var(--roboto);
+    --receitas-texto: 300 19px var(--roboto);
+    --receitas-botao: 400 18px var(--roboto);
+    --nome: 400 32px var(--pacifico);
+    --cargo: 300 18px var(--roboto);
+    --contato: 500 18px var(--roboto);
+
+    /*Cores*/
+    --branco: #ffffff;
+    --vinho: #8d0606;
+    --vinho-hover: #550404;
+    --cinza-claro: #c5c5c5;
+    --cinza-medio: #868484;
+    --cinza-forte: #636363;
+    --fundo: #E5E5E5;
+
+}
+
+/*Estilos Gerais*/
+* {
+    font-family: var(--roboto);
+}
+
+a {
+    text-decoration: none;
+}
+

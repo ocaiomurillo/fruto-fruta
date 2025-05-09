@@ -1,0 +1,52 @@
+.receitas{
+    background-color: var(--fundo);
+    padding: 5em;
+}
+
+.receitas__lista{
+    column-gap: 10em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 3em;
+}
+
+.receitas__lista--item{
+    background-color: var(--branco);
+    border: 1px solid var(--cinza-claro);
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    width: 360px;
+}
+
+.receitas__lista--dados{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+}
+
+.receitas__lista--titulo{
+    color: var(--cinza-forte);
+    font: var(--receitas-titulo);
+}
+
+.receitas__lista--texto{
+    color: var(--cinza-medio);
+    font: var(--receitas-texto);
+}
+
+.receitas__lista--link{
+    background-color: var(--vinho);
+    border-radius: 5px;
+    color: var(--branco);
+    font: var(--receitas-botao);
+    text-align: center;
+    padding: .6em;
+    width: 30%;
+}
+
+.receitas__lista--link:hover{
+    background-color: var(--vinho-hover);
+}
